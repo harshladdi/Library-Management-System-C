@@ -4,13 +4,12 @@
 struct Book {
     int id;
     char name[50];
-    int issued;   // 0 = not issued, 1 = issued
+    int issued;  
 };
 
 struct Book books[100];
 int count = 0;
 
-/* function declarations */
 void addBook();
 void issueBook();
 void returnBook();
@@ -123,3 +122,4 @@ void loadData() {
     fread(books, sizeof(struct Book), count, fp);
     fclose(fp);
 }
+

@@ -1,24 +1,29 @@
 
-# Library Management System (C)
+# Library Management System (java)
 
 ## Description
-A menu-driven Library Management System implemented in C language.
-The project supports adding books, issuing books, returning books,
-and saving data using file handling.
+
+A menu-driven Library Management System implemented in Java.The project allows users to add books, issue books, return books, view available books, and store records permanently using file handling and object serialization.
 
 ## Features
-- Add new books
-- Issue and return books
-- View available books
-- Persistent storage using file handling
+
+* Add new books
+* Issue and return books
+* View available books
+* Persistent storage using file handling
+* Automatic data loading and saving
 
 ## Technologies Used
-- C Language
-- File Handling
-- Structures
-- GCC Compiler
+
+* Java
+* Object-Oriented Programming (OOP)
+* File Handling
+* Object Serialization
+* VS Code / IntelliJ IDEA
+* JDK (Java Development Kit)
+
 
 ## How to Run
 ```bash
-gcc library.c -o library
-./library
+javac LibraryManagementSystem.java
+java LibraryManagementSystem
